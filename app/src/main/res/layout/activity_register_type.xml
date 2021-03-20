@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".Register_type">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="Selecciona tu Tipo de Registro"
+        android:textSize="35sp"
+        android:fontFamily="@font/opensans_bold"
+        android:layout_gravity="center"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Si eres Alumno y deseas usar el Estacionamiento INACAP, presiona el botón Alumno"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/btn_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Alumno"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:fontFamily="@font/opensans_semibold"
+        android:textColor="@android:color/white"
+        android:onClick="alumno"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Si eres uno de nuestros Guardias y estarás a cargo de la entrada del Estacionamiento INACAP, debes presionar el botón Guardia"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/btn_guardia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Guardia"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:fontFamily="@font/opensans_semibold"
+        android:textColor="@android:color/white"
+        android:onClick="guardia"/>
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="5dp"
+        android:text="Volver"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:fontFamily="@font/opensans_semibold"
+        android:textColor="@android:color/white"
+        android:onClick="volver"/>
+
+</LinearLayout>

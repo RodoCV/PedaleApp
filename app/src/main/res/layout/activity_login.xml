@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ECECEC"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/logoabout"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_alignParentRight="true"
+            android:onClick="goAbout"
+            android:src="@drawable/ic_about_devs"/>
+
+        <ImageView
+            android:id="@+id/logoapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logoabout"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo_pedaleapp"/>
+
+        <TextView
+            android:id="@+id/tituloapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logoapp"
+            android:layout_centerHorizontal="true"
+            android:text="PedaleApp"
+            android:textSize="35sp"
+            android:fontFamily="@font/opensans_extrabold_italic"
+            android:textColor="#000000"/>
+
+        <Spinner
+            android:id="@+id/spinner_typeUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tituloapp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/opensans_light"/>
+
+        <EditText
+            android:id="@+id/txt_login_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner_typeUser"
+            android:focusedByDefault="true"
+            android:textSize="25sp"
+            android:fontFamily="@font/opensans_light"
+            android:autoSizeTextType="uniform"
+            android:hint="E-Mail o RUT"/>
+
+        <EditText
+            android:id="@+id/txt_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_login_id"
+            android:layout_marginTop="8dp"
+            android:textSize="25sp"
+            android:fontFamily="@font/opensans_light"
+            android:autoSizeTextType="uniform"
+            android:hint="Clave"
+            android:inputType="textPassword"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_sesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_login_password"
+            android:layout_marginTop="16dp"
+            android:checked="false"
+            android:enabled="false"
+            android:text="Mantener la sesión activa"
+            android:fontFamily="@font/opensans_regular"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkbox_sesion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/holo_red_dark"
+            android:padding="5dp"
+            android:text="Iniciar sesión"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:fontFamily="@font/opensans_semibold"
+            android:textColor="@android:color/white"
+            android:onClick="login"/>
+
+        <TextView
+            android:id="@+id/txt_registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_login"
+            android:layout_centerHorizontal="true"
+            android:text="¿Desea Registrarse?"
+            android:textSize="16sp"
+            android:fontFamily="@font/opensans_semibold"
+            android:textColor="#006bd0"
+            android:onClick="goRegister"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

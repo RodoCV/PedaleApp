@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "635685171598",
+    "firebase_url": "https://pedaleapp-30009.firebaseio.com",
+    "project_id": "pedaleapp-30009",
+    "storage_bucket": "pedaleapp-30009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635685171598:android:af6ca29c307449bf0b74df",
+        "android_client_info": {
+          "package_name": "com.example.pedaleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635685171598-2ijvgenk8s6an5hgjog1n1mif990uun9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6qlTDsNBSVdOYQyvyjXrEqmyeGccw4Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635685171598-2ijvgenk8s6an5hgjog1n1mif990uun9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

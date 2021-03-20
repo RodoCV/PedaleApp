@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".Guardia_register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:text="Guardia ¡Regístrate!"
+                android:textSize="35sp"
+                android:fontFamily="@font/opensans_bold"
+                android:layout_gravity="center"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:text="Ingresa tus Datos Personales"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/txt_guardia_rut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Ingresa tu RUT"
+                android:digits="0123456789Kl-"
+                android:textAllCaps="true"
+                android:fontFamily="@font/opensans_light"/>
+
+            <EditText
+                android:id="@+id/txt_guardia_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Ingresa tu Nombre"
+                android:inputType="text"
+                android:fontFamily="@font/opensans_light"/>
+
+            <EditText
+                android:id="@+id/txt_guardia_apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Ingresa tu Apellido"
+                android:inputType="text"
+                android:fontFamily="@font/opensans_light"/>
+
+            <EditText
+                android:id="@+id/txt_guardia_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:hint="Ingresa tu Correo Electrónico"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/opensans_light"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Define una contraseña para tu Cuenta de Usuario"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="#000"/>
+
+            <EditText
+                android:id="@+id/txt_guardia_password1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Ingresa una Contraseña, mínimo 6 caractéres"
+                android:fontFamily="@font/opensans_light"
+                android:inputType="textPassword"/>
+            <EditText
+                android:id="@+id/txt_guardia_password2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:hint="Confirma la Contraseña"
+                android:fontFamily="@font/opensans_light"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btn_register_guardia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Registrar"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@android:color/white"
+                android:onClick="registrarGuardia"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

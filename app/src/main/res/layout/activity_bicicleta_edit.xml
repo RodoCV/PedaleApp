@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:fillViewport="true"
+    tools:context=".Bicicleta_edit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_edit_alumno">
+
+        <TextView
+            android:id="@+id/titulo_alumno_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="Gestiona tu Bicicleta"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/photo_bicycle_alumno_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titulo_alumno_edit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_bicycle" />
+
+        <EditText
+            android:id="@+id/txt_marca_alumno_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/photo_bicycle_alumno_edit"
+            android:layout_marginTop="16dp"
+            android:hint="Ingresa la Marca de tu Bicicleta"
+            android:textAllCaps="true"
+            android:fontFamily="@font/opensans_light"/>
+
+        <EditText
+            android:id="@+id/txt_modelo_alumno_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_marca_alumno_edit"
+            android:layout_marginTop="16dp"
+            android:hint="Ingresa el Modelo de tu Bicicleta"
+            android:textAllCaps="true"
+            android:fontFamily="@font/opensans_light"/>
+
+        <EditText
+            android:id="@+id/txt_color_alumno_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_modelo_alumno_edit"
+            android:layout_marginTop="16dp"
+            android:hint="Ingresa el Color de tu Bicicleta"
+            android:inputType="text"
+            android:digits="AÁaáEÉeéIÍiíOÓoóUÚuú BbCcDdFfGgHhIiJjKkLlMmNnÑñPpQqRrSsTtVvWwXxYyZz"
+            android:textAllCaps="true"
+            android:fontFamily="@font/opensans_light"/>
+
+        <EditText
+            android:id="@+id/txt_aro_alumno_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_color_alumno_edit"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="48dp"
+            android:hint="Ingresa el Aro de tu Bicicleta"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:textAllCaps="true"
+            android:fontFamily="@font/opensans_light"/>
+
+
+        <Button
+            android:id="@+id/btn_alummo_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_aro_alumno_edit"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/holo_red_dark"
+            android:padding="5dp"
+            android:text="Registrar"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:fontFamily="@font/opensans_semibold"
+            android:textColor="@android:color/white"
+            android:onClick="editAlumno"/>
+
+    </RelativeLayout>
+
+</ScrollView>
