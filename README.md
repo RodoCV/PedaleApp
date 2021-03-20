@@ -8,4 +8,5 @@ Esta aplicación busca solucionar la problemática del falible control de acceso
 y el tiempo consumido en registrar individuos que accedían al estacionamiento en bicicleta (registrar datos en un cuaderno).
 
 Codificación: Rodolfo Campos.
-Diseño de Interfaz: Lorena Zabalaga - Felipe Díaz.
+
+Diseño de Interfaz: Rodolfo Campos - Lorena Zabalaga - Felipe Díaz.
