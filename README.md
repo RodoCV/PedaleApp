@@ -1,4 +1,4 @@
-# PedaleApp
+# PedaleApp (Java Android)
 
 Aplicación desarrollada durante el curso de mi carrera, asignatura "Aplicaciones Móviles". 
 Situada en contexto INACAP Talca - Estacionamiento. Mejora el flujo de entrada/salida del estacionamiento, gracias a la definición de 2 roles (Usuario y Guardia); 
