@@ -10,3 +10,6 @@ y el tiempo consumido en registrar individuos que accedían al estacionamiento e
 Codificación: Rodolfo Campos.
 
 Diseño de Interfaz: Rodolfo Campos - Lorena Zabalaga - Felipe Díaz.
+
+Rodolfo Campos: https://www.linkedin.com/in/rodocv/
+Lorena Zabalaga: https://www.linkedin.com/in/lorenazabalaga/
